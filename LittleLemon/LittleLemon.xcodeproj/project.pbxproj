@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		351206ED2B32DD33004B4567 /* MarkaziText-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 351206EC2B32DD33004B4567 /* MarkaziText-Medium.ttf */; };
+		351206F12B32DD8C004B4567 /* MarkaziText-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 351206EE2B32DD8C004B4567 /* MarkaziText-SemiBold.ttf */; };
+		351206F22B32DD8C004B4567 /* MarkaziText-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 351206EF2B32DD8C004B4567 /* MarkaziText-Bold.ttf */; };
+		351206F32B32DD8C004B4567 /* MarkaziText-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 351206F02B32DD8C004B4567 /* MarkaziText-Regular.ttf */; };
+		351207032B32DFCD004B4567 /* Karla-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 351206F52B32DFCD004B4567 /* Karla-SemiBold.ttf */; };
+		351207042B32DFCD004B4567 /* Karla-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 351206F62B32DFCD004B4567 /* Karla-BoldItalic.ttf */; };
+		351207052B32DFCD004B4567 /* Karla-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 351206F72B32DFCD004B4567 /* Karla-ExtraBold.ttf */; };
+		351207062B32DFCD004B4567 /* Karla-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 351206F82B32DFCD004B4567 /* Karla-SemiBoldItalic.ttf */; };
+		351207072B32DFCD004B4567 /* Karla-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 351206F92B32DFCD004B4567 /* Karla-ExtraLight.ttf */; };
+		351207082B32DFCD004B4567 /* Karla-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 351206FA2B32DFCD004B4567 /* Karla-Regular.ttf */; };
+		351207092B32DFCD004B4567 /* Karla-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 351206FB2B32DFCD004B4567 /* Karla-MediumItalic.ttf */; };
+		3512070A2B32DFCD004B4567 /* Karla-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 351206FC2B32DFCD004B4567 /* Karla-Light.ttf */; };
+		3512070B2B32DFCD004B4567 /* Karla-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 351206FD2B32DFCD004B4567 /* Karla-Italic.ttf */; };
+		3512070C2B32DFCD004B4567 /* Karla-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 351206FE2B32DFCD004B4567 /* Karla-Medium.ttf */; };
+		3512070D2B32DFCD004B4567 /* Karla-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 351206FF2B32DFCD004B4567 /* Karla-Bold.ttf */; };
+		3512070E2B32DFCD004B4567 /* Karla-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 351207002B32DFCD004B4567 /* Karla-ExtraBoldItalic.ttf */; };
+		3512070F2B32DFCD004B4567 /* Karla-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 351207012B32DFCD004B4567 /* Karla-LightItalic.ttf */; };
+		351207102B32DFCD004B4567 /* Karla-ExtraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 351207022B32DFCD004B4567 /* Karla-ExtraLightItalic.ttf */; };
+		351207132B32EC32004B4567 /* HeroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351207122B32EC32004B4567 /* HeroView.swift */; };
+		351207152B332C56004B4567 /* LogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351207142B332C56004B4567 /* LogoView.swift */; };
+		351207192B33564E004B4567 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351207182B33564E004B4567 /* NotificationView.swift */; };
+		3512071D2B335E38004B4567 /* AvatarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3512071C2B335E38004B4567 /* AvatarView.swift */; };
+		3512071F2B3421CD004B4567 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3512071E2B3421CD004B4567 /* CustomTextField.swift */; };
+		351207232B343316004B4567 /* DishesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351207222B343316004B4567 /* DishesView.swift */; };
+		351207252B343721004B4567 /* MenuButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351207242B343721004B4567 /* MenuButton.swift */; };
+		351207292B3859DD004B4567 /* Onboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351207282B3859DD004B4567 /* Onboarding.swift */; };
+		3512072B2B385C13004B4567 /* Fonts+ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3512072A2B385C13004B4567 /* Fonts+ext.swift */; };
+		3512072D2B385C41004B4567 /* Colors+ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3512072C2B385C41004B4567 /* Colors+ext.swift */; };
+		351207312B396F28004B4567 /* ChangesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351207302B396F28004B4567 /* ChangesView.swift */; };
+		351207332B39B038004B4567 /* TabManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351207322B39B038004B4567 /* TabManager.swift */; };
+		351207362B39CB03004B4567 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351207352B39CB03004B4567 /* UserData.swift */; };
+		351207382B3AB254004B4567 /* MainAppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351207372B3AB254004B4567 /* MainAppView.swift */; };
+		3512073A2B3AB2FC004B4567 /* SessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 351207392B3AB2FC004B4567 /* SessionManager.swift */; };
+		3523F40E2B308158007C5342 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3523F40D2B308158007C5342 /* Login.swift */; };
+		3523F4102B308752007C5342 /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3523F40F2B308752007C5342 /* UserProfile.swift */; };
+		3523F4132B30C3F5007C5342 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3523F4112B30C3F5007C5342 /* Persistence.swift */; };
+		3523F4142B30C3F5007C5342 /* FetchedObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3523F4122B30C3F5007C5342 /* FetchedObjects.swift */; };
+		3523F4162B317784007C5342 /* MenuList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3523F4152B317784007C5342 /* MenuList.swift */; };
+		3523F41B2B318FD4007C5342 /* ExampleDatabase.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3523F4192B318FD4007C5342 /* ExampleDatabase.xcdatamodeld */; };
+		3577AC2D2B2F215F007129E4 /* LittleLemonApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3577AC2C2B2F215F007129E4 /* LittleLemonApp.swift */; };
+		3577AC312B2F2161007129E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3577AC302B2F2161007129E4 /* Assets.xcassets */; };
+		3577AC342B2F2161007129E4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3577AC332B2F2161007129E4 /* Preview Assets.xcassets */; };
+		3577AC3B2B2F21AE007129E4 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3577AC3A2B2F21AE007129E4 /* Home.swift */; };
+		3577AC3D2B2F21E2007129E4 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3577AC3C2B2F21E2007129E4 /* Menu.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		351206EB2B32D7FF004B4567 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		351206EC2B32DD33004B4567 /* MarkaziText-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MarkaziText-Medium.ttf"; sourceTree = "<group>"; };
+		351206EE2B32DD8C004B4567 /* MarkaziText-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MarkaziText-SemiBold.ttf"; sourceTree = "<group>"; };
+		351206EF2B32DD8C004B4567 /* MarkaziText-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MarkaziText-Bold.ttf"; sourceTree = "<group>"; };
+		351206F02B32DD8C004B4567 /* MarkaziText-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "MarkaziText-Regular.ttf"; sourceTree = "<group>"; };
+		351206F52B32DFCD004B4567 /* Karla-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Karla-SemiBold.ttf"; sourceTree = "<group>"; };
+		351206F62B32DFCD004B4567 /* Karla-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Karla-BoldItalic.ttf"; sourceTree = "<group>"; };
+		351206F72B32DFCD004B4567 /* Karla-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Karla-ExtraBold.ttf"; sourceTree = "<group>"; };
+		351206F82B32DFCD004B4567 /* Karla-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Karla-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		351206F92B32DFCD004B4567 /* Karla-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Karla-ExtraLight.ttf"; sourceTree = "<group>"; };
+		351206FA2B32DFCD004B4567 /* Karla-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Karla-Regular.ttf"; sourceTree = "<group>"; };
+		351206FB2B32DFCD004B4567 /* Karla-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Karla-MediumItalic.ttf"; sourceTree = "<group>"; };
+		351206FC2B32DFCD004B4567 /* Karla-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Karla-Light.ttf"; sourceTree = "<group>"; };
+		351206FD2B32DFCD004B4567 /* Karla-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Karla-Italic.ttf"; sourceTree = "<group>"; };
+		351206FE2B32DFCD004B4567 /* Karla-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Karla-Medium.ttf"; sourceTree = "<group>"; };
+		351206FF2B32DFCD004B4567 /* Karla-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Karla-Bold.ttf"; sourceTree = "<group>"; };
+		351207002B32DFCD004B4567 /* Karla-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Karla-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		351207012B32DFCD004B4567 /* Karla-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Karla-LightItalic.ttf"; sourceTree = "<group>"; };
+		351207022B32DFCD004B4567 /* Karla-ExtraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Karla-ExtraLightItalic.ttf"; sourceTree = "<group>"; };
+		351207122B32EC32004B4567 /* HeroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroView.swift; sourceTree = "<group>"; };
+		351207142B332C56004B4567 /* LogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoView.swift; sourceTree = "<group>"; };
+		351207182B33564E004B4567 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		3512071C2B335E38004B4567 /* AvatarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarView.swift; sourceTree = "<group>"; };
+		3512071E2B3421CD004B4567 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		351207222B343316004B4567 /* DishesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishesView.swift; sourceTree = "<group>"; };
+		351207242B343721004B4567 /* MenuButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuButton.swift; sourceTree = "<group>"; };
+		351207282B3859DD004B4567 /* Onboarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding.swift; sourceTree = "<group>"; };
+		3512072A2B385C13004B4567 /* Fonts+ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Fonts+ext.swift"; sourceTree = "<group>"; };
+		3512072C2B385C41004B4567 /* Colors+ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Colors+ext.swift"; sourceTree = "<group>"; };
+		351207302B396F28004B4567 /* ChangesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangesView.swift; sourceTree = "<group>"; };
+		351207322B39B038004B4567 /* TabManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabManager.swift; sourceTree = "<group>"; };
+		351207352B39CB03004B4567 /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		351207372B3AB254004B4567 /* MainAppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainAppView.swift; sourceTree = "<group>"; };
+		351207392B3AB2FC004B4567 /* SessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionManager.swift; sourceTree = "<group>"; };
+		3523F40D2B308158007C5342 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		3523F40F2B308752007C5342 /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
+		3523F4112B30C3F5007C5342 /* Persistence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		3523F4122B30C3F5007C5342 /* FetchedObjects.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FetchedObjects.swift; sourceTree = "<group>"; };
+		3523F4152B317784007C5342 /* MenuList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuList.swift; sourceTree = "<group>"; };
+		3523F41A2B318FD4007C5342 /* ExampleDatabase.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ExampleDatabase.xcdatamodel; sourceTree = "<group>"; };
+		3577AC292B2F215F007129E4 /* LittleLemon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LittleLemon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3577AC2C2B2F215F007129E4 /* LittleLemonApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LittleLemonApp.swift; sourceTree = "<group>"; };
+		3577AC302B2F2161007129E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3577AC332B2F2161007129E4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3577AC3A2B2F21AE007129E4 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		3577AC3C2B2F21E2007129E4 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3577AC262B2F215F007129E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		351206E82B32D71B004B4567 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				351207112B32DFD3004B4567 /* Karla */,
+				351206F42B32DFB3004B4567 /* MarkaziText */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		351206F42B32DFB3004B4567 /* MarkaziText */ = {
+			isa = PBXGroup;
+			children = (
+				351206EF2B32DD8C004B4567 /* MarkaziText-Bold.ttf */,
+				351206F02B32DD8C004B4567 /* MarkaziText-Regular.ttf */,
+				351206EE2B32DD8C004B4567 /* MarkaziText-SemiBold.ttf */,
+				351206EC2B32DD33004B4567 /* MarkaziText-Medium.ttf */,
+			);
+			path = MarkaziText;
+			sourceTree = "<group>";
+		};
+		351207112B32DFD3004B4567 /* Karla */ = {
+			isa = PBXGroup;
+			children = (
+				351206FF2B32DFCD004B4567 /* Karla-Bold.ttf */,
+				351206F62B32DFCD004B4567 /* Karla-BoldItalic.ttf */,
+				351206F72B32DFCD004B4567 /* Karla-ExtraBold.ttf */,
+				351207002B32DFCD004B4567 /* Karla-ExtraBoldItalic.ttf */,
+				351206F92B32DFCD004B4567 /* Karla-ExtraLight.ttf */,
+				351207022B32DFCD004B4567 /* Karla-ExtraLightItalic.ttf */,
+				351206FD2B32DFCD004B4567 /* Karla-Italic.ttf */,
+				351206FC2B32DFCD004B4567 /* Karla-Light.ttf */,
+				351207012B32DFCD004B4567 /* Karla-LightItalic.ttf */,
+				351206FE2B32DFCD004B4567 /* Karla-Medium.ttf */,
+				351206FB2B32DFCD004B4567 /* Karla-MediumItalic.ttf */,
+				351206FA2B32DFCD004B4567 /* Karla-Regular.ttf */,
+				351206F52B32DFCD004B4567 /* Karla-SemiBold.ttf */,
+				351206F82B32DFCD004B4567 /* Karla-SemiBoldItalic.ttf */,
+			);
+			path = Karla;
+			sourceTree = "<group>";
+		};
+		351207162B332D1B004B4567 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				351207352B39CB03004B4567 /* UserData.swift */,
+				3523F4152B317784007C5342 /* MenuList.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		351207172B332D33004B4567 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				3523F4122B30C3F5007C5342 /* FetchedObjects.swift */,
+				3523F4112B30C3F5007C5342 /* Persistence.swift */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		351207202B34253C004B4567 /* SecondaryViews */ = {
+			isa = PBXGroup;
+			children = (
+				351207142B332C56004B4567 /* LogoView.swift */,
+				351207122B32EC32004B4567 /* HeroView.swift */,
+				351207222B343316004B4567 /* DishesView.swift */,
+				3512071C2B335E38004B4567 /* AvatarView.swift */,
+				351207302B396F28004B4567 /* ChangesView.swift */,
+				351207242B343721004B4567 /* MenuButton.swift */,
+				3512071E2B3421CD004B4567 /* CustomTextField.swift */,
+				351207182B33564E004B4567 /* NotificationView.swift */,
+			);
+			path = SecondaryViews;
+			sourceTree = "<group>";
+		};
+		351207212B342AFD004B4567 /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
+				351206E82B32D71B004B4567 /* Fonts */,
+				351206EB2B32D7FF004B4567 /* Info.plist */,
+				3577AC302B2F2161007129E4 /* Assets.xcassets */,
+			);
+			path = Supporting;
+			sourceTree = "<group>";
+		};
+		351207342B39B049004B4567 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				351207392B3AB2FC004B4567 /* SessionManager.swift */,
+				351207322B39B038004B4567 /* TabManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		3512073B2B3AFC6E004B4567 /* MainViews */ = {
+			isa = PBXGroup;
+			children = (
+				3577AC2C2B2F215F007129E4 /* LittleLemonApp.swift */,
+				351207372B3AB254004B4567 /* MainAppView.swift */,
+				351207282B3859DD004B4567 /* Onboarding.swift */,
+				3523F40D2B308158007C5342 /* Login.swift */,
+				3577AC3A2B2F21AE007129E4 /* Home.swift */,
+				3577AC3C2B2F21E2007129E4 /* Menu.swift */,
+				3523F40F2B308752007C5342 /* UserProfile.swift */,
+			);
+			path = MainViews;
+			sourceTree = "<group>";
+		};
+		3512073C2B3AFCE8004B4567 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				3512072A2B385C13004B4567 /* Fonts+ext.swift */,
+				3512072C2B385C41004B4567 /* Colors+ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		3577AC202B2F215F007129E4 = {
+			isa = PBXGroup;
+			children = (
+				3577AC2B2B2F215F007129E4 /* LittleLemon */,
+				3577AC2A2B2F215F007129E4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3577AC2A2B2F215F007129E4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3577AC292B2F215F007129E4 /* LittleLemon.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3577AC2B2B2F215F007129E4 /* LittleLemon */ = {
+			isa = PBXGroup;
+			children = (
+				3512073C2B3AFCE8004B4567 /* Extensions */,
+				351207212B342AFD004B4567 /* Supporting */,
+				3512073B2B3AFC6E004B4567 /* MainViews */,
+				351207202B34253C004B4567 /* SecondaryViews */,
+				351207172B332D33004B4567 /* CoreData */,
+				351207162B332D1B004B4567 /* Model */,
+				351207342B39B049004B4567 /* Manager */,
+				3577AC322B2F2161007129E4 /* Preview Content */,
+				3523F4192B318FD4007C5342 /* ExampleDatabase.xcdatamodeld */,
+			);
+			path = LittleLemon;
+			sourceTree = "<group>";
+		};
+		3577AC322B2F2161007129E4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3577AC332B2F2161007129E4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3577AC282B2F215F007129E4 /* LittleLemon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3577AC372B2F2161007129E4 /* Build configuration list for PBXNativeTarget "LittleLemon" */;
+			buildPhases = (
+				3577AC252B2F215F007129E4 /* Sources */,
+				3577AC262B2F215F007129E4 /* Frameworks */,
+				3577AC272B2F215F007129E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LittleLemon;
+			productName = LittleLemon;
+			productReference = 3577AC292B2F215F007129E4 /* LittleLemon.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3577AC212B2F215F007129E4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					3577AC282B2F215F007129E4 = {
+						CreatedOnToolsVersion = 15.1;
+					};
+				};
+			};
+			buildConfigurationList = 3577AC242B2F215F007129E4 /* Build configuration list for PBXProject "LittleLemon" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3577AC202B2F215F007129E4;
+			productRefGroup = 3577AC2A2B2F215F007129E4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3577AC282B2F215F007129E4 /* LittleLemon */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3577AC272B2F215F007129E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				351207072B32DFCD004B4567 /* Karla-ExtraLight.ttf in Resources */,
+				351206ED2B32DD33004B4567 /* MarkaziText-Medium.ttf in Resources */,
+				3577AC342B2F2161007129E4 /* Preview Assets.xcassets in Resources */,
+				3512070F2B32DFCD004B4567 /* Karla-LightItalic.ttf in Resources */,
+				3512070C2B32DFCD004B4567 /* Karla-Medium.ttf in Resources */,
+				351206F32B32DD8C004B4567 /* MarkaziText-Regular.ttf in Resources */,
+				3512070A2B32DFCD004B4567 /* Karla-Light.ttf in Resources */,
+				351206F22B32DD8C004B4567 /* MarkaziText-Bold.ttf in Resources */,
+				351207052B32DFCD004B4567 /* Karla-ExtraBold.ttf in Resources */,
+				351207032B32DFCD004B4567 /* Karla-SemiBold.ttf in Resources */,
+				351206F12B32DD8C004B4567 /* MarkaziText-SemiBold.ttf in Resources */,
+				3512070B2B32DFCD004B4567 /* Karla-Italic.ttf in Resources */,
+				351207102B32DFCD004B4567 /* Karla-ExtraLightItalic.ttf in Resources */,
+				351207092B32DFCD004B4567 /* Karla-MediumItalic.ttf in Resources */,
+				3512070E2B32DFCD004B4567 /* Karla-ExtraBoldItalic.ttf in Resources */,
+				3577AC312B2F2161007129E4 /* Assets.xcassets in Resources */,
+				351207042B32DFCD004B4567 /* Karla-BoldItalic.ttf in Resources */,
+				3512070D2B32DFCD004B4567 /* Karla-Bold.ttf in Resources */,
+				351207082B32DFCD004B4567 /* Karla-Regular.ttf in Resources */,
+				351207062B32DFCD004B4567 /* Karla-SemiBoldItalic.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3577AC252B2F215F007129E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3523F41B2B318FD4007C5342 /* ExampleDatabase.xcdatamodeld in Sources */,
+				351207152B332C56004B4567 /* LogoView.swift in Sources */,
+				3577AC3B2B2F21AE007129E4 /* Home.swift in Sources */,
+				3512073A2B3AB2FC004B4567 /* SessionManager.swift in Sources */,
+				3512071F2B3421CD004B4567 /* CustomTextField.swift in Sources */,
+				351207192B33564E004B4567 /* NotificationView.swift in Sources */,
+				3523F4102B308752007C5342 /* UserProfile.swift in Sources */,
+				3523F4132B30C3F5007C5342 /* Persistence.swift in Sources */,
+				3523F4142B30C3F5007C5342 /* FetchedObjects.swift in Sources */,
+				3512072D2B385C41004B4567 /* Colors+ext.swift in Sources */,
+				3523F40E2B308158007C5342 /* Login.swift in Sources */,
+				351207232B343316004B4567 /* DishesView.swift in Sources */,
+				351207362B39CB03004B4567 /* UserData.swift in Sources */,
+				351207382B3AB254004B4567 /* MainAppView.swift in Sources */,
+				3577AC3D2B2F21E2007129E4 /* Menu.swift in Sources */,
+				3512072B2B385C13004B4567 /* Fonts+ext.swift in Sources */,
+				3523F4162B317784007C5342 /* MenuList.swift in Sources */,
+				3577AC2D2B2F215F007129E4 /* LittleLemonApp.swift in Sources */,
+				351207292B3859DD004B4567 /* Onboarding.swift in Sources */,
+				351207252B343721004B4567 /* MenuButton.swift in Sources */,
+				3512071D2B335E38004B4567 /* AvatarView.swift in Sources */,
+				351207312B396F28004B4567 /* ChangesView.swift in Sources */,
+				351207332B39B038004B4567 /* TabManager.swift in Sources */,
+				351207132B32EC32004B4567 /* HeroView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3577AC352B2F2161007129E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3577AC362B2F2161007129E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3577AC382B2F2161007129E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LittleLemon/Preview Content\"";
+				DEVELOPMENT_TEAM = 7GR66NG8SN;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LittleLemon/Supporting/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.silencepeaceoff.LittleLemon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3577AC392B2F2161007129E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"LittleLemon/Preview Content\"";
+				DEVELOPMENT_TEAM = 7GR66NG8SN;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = LittleLemon/Supporting/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.silencepeaceoff.LittleLemon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3577AC242B2F215F007129E4 /* Build configuration list for PBXProject "LittleLemon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3577AC352B2F2161007129E4 /* Debug */,
+				3577AC362B2F2161007129E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3577AC372B2F2161007129E4 /* Build configuration list for PBXNativeTarget "LittleLemon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3577AC382B2F2161007129E4 /* Debug */,
+				3577AC392B2F2161007129E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3523F4192B318FD4007C5342 /* ExampleDatabase.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3523F41A2B318FD4007C5342 /* ExampleDatabase.xcdatamodel */,
+			);
+			currentVersion = 3523F41A2B318FD4007C5342 /* ExampleDatabase.xcdatamodel */;
+			path = ExampleDatabase.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3577AC212B2F215F007129E4 /* Project object */;
+}
