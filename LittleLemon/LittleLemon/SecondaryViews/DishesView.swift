@@ -77,7 +77,7 @@ struct DishListView: View {
           let dishTitle = dish.title ?? ""
           let dishPrice = dish.price ?? ""
           let dishImage = dish.image ?? ""
-          let dishCategory = dish.category ?? ""
+//          let dishCategory = dish.category ?? "" Maybe later need to upgrage
           let dishDescription = dish.descrpt ?? ""
           
           VStack(alignment: .leading, spacing: 12) {
