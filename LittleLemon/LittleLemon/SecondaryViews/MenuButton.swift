@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct MenuButton: View {
-  @State var isChecked: Bool
+  @Binding var isChecked: Bool
   let categoryName: String
   
   var body: some View {
@@ -31,5 +31,5 @@ struct MenuButton: View {
 }
 
 #Preview {
-  MenuButton(isChecked: false, categoryName: "Drinks")
+  MenuButton(isChecked: .constant(true), categoryName: "Drinks")
 }

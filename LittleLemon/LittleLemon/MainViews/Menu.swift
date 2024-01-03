@@ -37,7 +37,7 @@ struct Menu: View {
     let dataTask = URLSession.shared.dataTask(with: request)
     { data, response, error in
       if let error = error {
-        print("Network request error: \(error)")
+        print("Network request error: \(error.localizedDescription)")
         return
       }
 
@@ -48,7 +48,7 @@ struct Menu: View {
             saveMenuToCoreData(menuList.menu)
           }
         } catch {
-          print("Error decoding JSON: \(error)")
+          print("Error decoding JSON: \(error.localizedDescription)")
         }
       }
     }
@@ -63,6 +63,7 @@ struct Menu: View {
       newDish.price = menu.price
       newDish.category = menu.category
       newDish.descrpt = menu.description
+      print("\(newDish.title ?? "") - \(newDish.category ?? "")")
     }
 
     do {
@@ -75,5 +76,5 @@ struct Menu: View {
 }
 
 #Preview {
-  Menu()
+  Menu().environment(\.managedObjectContext, PersistenceController.shared.container.viewContext)
 }
