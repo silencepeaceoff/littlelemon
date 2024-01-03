@@ -63,7 +63,6 @@ struct Menu: View {
       newDish.price = menu.price
       newDish.category = menu.category
       newDish.descrpt = menu.description
-      print("\(newDish.title ?? "") - \(newDish.category ?? "")")
     }
 
     do {

@@ -10,6 +10,8 @@ import SwiftUI
 struct Onboarding: View {
   @EnvironmentObject var session: SessionManager
   @State private var isOnboardingActive = false
+  @State private var firstScreenAnimating = false
+  @State private var secondScreenAnimating = false
   let action: () -> Void
 
   var body: some View {
@@ -23,8 +25,12 @@ struct Onboarding: View {
             .font(Font.Theme.displayTitle)
             .foregroundColor(Color.Theme.yellowLL)
 
-          Text("🤝")
-            .font(.system(size: 150))
+          Image(systemName: "hand.thumbsup.fill")
+            .resizable()
+            .scaledToFit()
+            .frame(height: 100)
+            .foregroundStyle(.yellow)
+            .symbolEffect(.pulse)
 
           Text("Thank you for download our application. Before we start, please let us get to know you so we can serve you better!")
             .multilineTextAlignment(.center)
@@ -32,20 +38,28 @@ struct Onboarding: View {
             .foregroundColor(Color.Theme.grayLL)
             .padding()
         }
+        .onAppear {
+          firstScreenAnimating.toggle()
+        }
         .padding()
 
         VStack(spacing: 10) {
-          Text("🫶")
-            .font(.system(size: 120))
+          Text("""
+                  We working hard and hope that you will become our regular customer
+               """)
+          .multilineTextAlignment(.center)
+          .font(Font.Theme.displaySubtitle)
+          .foregroundColor(Color.Theme.grayLL)
+          .padding()
 
-          Text("We working hard and hope that you will like everything and that you will become our regular customer.")
-            .multilineTextAlignment(.center)
-            .font(Font.Theme.displaySubtitle)
-            .foregroundColor(Color.Theme.grayLL)
-            .padding()
+          Spacer()
 
-          Text("❤️")
-            .font(.system(size: 60))
+          Image(systemName: "heart.fill")
+            .resizable()
+            .scaledToFit()
+            .frame(height: 100)
+            .foregroundStyle(.red)
+            .symbolEffect(.bounce.down, value: secondScreenAnimating)
 
           Spacer()
 
@@ -65,11 +79,14 @@ struct Onboarding: View {
 
           Spacer()
 
-          Text("Little Lemon Team.")
+          Text("Little Lemon Team")
             .multilineTextAlignment(.center)
             .font(Font.Theme.displaySubtitle)
             .foregroundColor(Color.Theme.yellowLL)
             .padding(.bottom, 40)
+        }
+        .onAppear {
+          secondScreenAnimating.toggle()
         }
         .padding()
 
@@ -78,7 +95,7 @@ struct Onboarding: View {
       .indexViewStyle(.page(backgroundDisplayMode: .always))
 
     }
-    .onAppear() {
+    .onAppear {
       if UserDefaults.standard.bool(forKey: kIsLoggedIn) {
         isOnboardingActive = true
       }
